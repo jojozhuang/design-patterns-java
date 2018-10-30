@@ -5,20 +5,24 @@ package johnny.designpattern.singleton;
  */
 
 // define class as final, so it can't be inherited
-public final class Singleton {
-    private static Singleton instance;
+public final class Singleton4 {
+    private volatile static Singleton4 instance;
     
     // use a static method to get object of this class
-    public static Singleton getInstance() {
+    public static synchronized Singleton4 getInstance() {
         if (instance == null) {
-            instance = new Singleton();
+            synchronized (Singleton4.class) {
+                if (instance == null) {// Double-Check!
+                    instance = new Singleton4();
+                }
+            }
         }
         
         return instance;
     }
     
     // declare a private constructor, so only itself can instantiate an object.
-    private Singleton() {}
+    private Singleton4() {}
         
     // dummy methods
     public String getDummyString() {

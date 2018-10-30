@@ -1,4 +1,4 @@
-package johnny.designpattern.singleton.test;
+package johnny.designpattern.factory.test;
 
 import static org.junit.Assert.*;
 
@@ -8,9 +8,10 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import johnny.designpattern.singleton.Singleton;
+import johnny.designpattern.common.Aircraft;
+import johnny.designpattern.factory.AircraftFactory;
 
-public class SingletonTest {
+public class AircraftFactoryTest {
 
     @BeforeClass
     public static void setUpBeforeClass() throws Exception {
@@ -29,11 +30,13 @@ public class SingletonTest {
     }
 
     @Test
-    public void testSingleton() {
-        System.out.println("testSingleton");
+    public void testAircraftFactory() {
+        System.out.println("testAircraftFactory");
 
-        Singleton instance = Singleton.getInstance();
-        assertNotNull(instance);
-        assertEquals("hello", instance.getDummyString());
+        /*Aircraft acft = AircraftFactory.createAircraft("FighterCraft");
+        assertNotNull(acft);
+        acft.load();
+        acft.takeoff();
+        assertEquals("FighterCraft", acft.getType());*/
     }
 }

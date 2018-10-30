@@ -8,9 +8,9 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import johnny.designpattern.singleton.Singleton;
+import johnny.designpattern.singleton.Singleton2;
 
-public class SingletonTest {
+public class Singleton2Test {
 
     @BeforeClass
     public static void setUpBeforeClass() throws Exception {
@@ -29,10 +29,10 @@ public class SingletonTest {
     }
 
     @Test
-    public void testSingleton() {
-        System.out.println("testSingleton");
+    public void testSingleton2() {
+        System.out.println("Singleton2");
 
-        Singleton instance = Singleton.getInstance();
+        Singleton2 instance = Singleton2.getInstance();
         assertNotNull(instance);
         assertEquals("hello", instance.getDummyString());
     }
