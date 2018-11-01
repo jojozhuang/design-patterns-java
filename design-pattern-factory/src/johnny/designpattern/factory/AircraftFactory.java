@@ -2,28 +2,31 @@ package johnny.designpattern.factory;
 
 import johnny.designpattern.common.Aircraft;
 import johnny.designpattern.common.BomberCraft;
-import johnny.designpattern.common.CargoCraft;
 import johnny.designpattern.common.FighterCraft;
-import johnny.designpattern.common.PassengerCraft;
+import johnny.designpattern.common.GunshipCraft;
+import johnny.designpattern.common.MedicHelicopterCraft;
+import johnny.designpattern.common.TroopTransportCraft;
 
 /*
  * Factory Pattern
  */
 public class AircraftFactory {
-    // declare a private constructor, so only itself can instantiate an object.
+    // Declare a private constructor to prevent class instances from being created in any other places
     private AircraftFactory() {}
     
     // use a static method to get object with the given type
-    public Aircraft createAircraft(String type) {
-        if (type.equals("PassengerCraft")) {
-            return new PassengerCraft();
-        } else if (type.equals("CargoCraft")) {
-            return new CargoCraft();
+    public static Aircraft createAircraft(String type) {
+        if (type.equals("TroopTransportCraft")) {
+            return new TroopTransportCraft();
         } else if (type.equals("FighterCraft")) {
             return new FighterCraft();
-        } else if (type.equals("Bomber")) {
-             return new BomberCraft();
-        } else { 
+        } else if (type.equals("BomberCraft")) {
+            return new BomberCraft();
+        } else if (type.equals("GunshipCraft")) {
+            return new GunshipCraft();
+        } else if (type.equals("MedicHelicopterCraft")) {
+            return new MedicHelicopterCraft();
+        } else {
             return null;
         }
     }

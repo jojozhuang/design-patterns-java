@@ -7,16 +7,17 @@ import johnny.designpattern.common.BritishFighterCraft;
 import johnny.designpattern.common.BritishGunshipCraft;
 import johnny.designpattern.common.BritishTroopTransportCraft;
 
-public class BritishAircraftAbstractFactory implements AircraftFactory {
+public class BritishAircraftFactory implements AircraftFactory {
+    @Override
     public Aircraft createAircraft(String type) {
-        if (type.equals("Troop")) {
-            return new BritishTroopTransportCraft();
+        if (type.equals("Bomber")) {
+            return new BritishBomberCraft();
         } else if (type.equals("Fighter")) {
             return new BritishFighterCraft();
-        } else if (type.equals("Bomber")) {
-            return new BritishBomberCraft();
         } else if (type.equals("Gunship")) {
             return new BritishGunshipCraft();
+        } else if (type.equals("Troop")) {
+            return new BritishTroopTransportCraft();
         } else {
             return null;
         }

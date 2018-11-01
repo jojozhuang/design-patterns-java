@@ -3,16 +3,16 @@ package johnny.designpattern.common;
 public class GunshipCraft implements Aircraft {
     // constructor
     public GunshipCraft() {
-        System.out.println("FighterCraft is constructed.");
+        System.out.println("GunshipCraft is constructed.");
     }
     
     public void load() {
-        System.out.println("FighterCraft is loading.");
+        System.out.println("GunshipCraft is loading.");
     }
     public void takeoff() {
-        System.out.println("FighterCraft is taking off.");
+        System.out.println("GunshipCraft is taking off.");
     }
     public String getType() {
-        return "FighterCraft";
+        return "GunshipCraft";
     }
 }
