@@ -1,6 +1,7 @@
 package johnny.designpattern.factory;
 
 import johnny.designpattern.common.Aircraft;
+import johnny.designpattern.common.AircraftFactory;
 
 public class AircraftProcessor {
     private AircraftFactory aircraftFactory = null;

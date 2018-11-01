@@ -8,8 +8,7 @@ import johnny.designpattern.common.USGunshipCraft;
 import johnny.designpattern.common.USTroopTransportCraft;
 
 public class USAircraftFactory implements AircraftFactory {
-    @Override
-    public  Aircraft createAircraft(String type) {
+    public Aircraft createAircraft(String type) {
         if (type.equals("Bomber")) {
             return new USBomberCraft();
         } else if (type.equals("Fighter")) {
@@ -21,17 +20,5 @@ public class USAircraftFactory implements AircraftFactory {
         } else {
             return null;
         }
-    }
-
-    @Override
-    public Aircraft repairAircraft(String type) {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public Aircraft decommissionAircraft(String type) {
-        // TODO Auto-generated method stub
-        return null;
     }
 }

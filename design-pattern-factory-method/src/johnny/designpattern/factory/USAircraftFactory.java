@@ -1,6 +1,7 @@
 package johnny.designpattern.factory;
 
 import johnny.designpattern.common.Aircraft;
+import johnny.designpattern.common.AircraftFactory;
 import johnny.designpattern.common.USBomberCraft;
 import johnny.designpattern.common.USFighterCraft;
 import johnny.designpattern.common.USGunshipCraft;
@@ -20,5 +21,4 @@ public class USAircraftFactory extends AircraftFactory {
             return null;
         }
     }
-
 }

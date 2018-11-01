@@ -1,7 +1,8 @@
 package johnny.designpattern.common;
 
-public interface AircraftFactory {
-    public Aircraft createAircraft(String type); 
-    public Aircraft repairAircraft(String type); 
-    public Aircraft decommissionAircraft(String type);
+/*
+ * Factory Method Pattern
+ */
+public abstract class AircraftFactory {
+    public abstract Aircraft createAircraft(String type);
 }

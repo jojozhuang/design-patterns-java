@@ -1,6 +1,7 @@
 package johnny.designpattern.factory;
 
 import johnny.designpattern.common.Aircraft;
+import johnny.designpattern.common.AircraftFactory;
 import johnny.designpattern.common.BritishBomberCraft;
 import johnny.designpattern.common.BritishFighterCraft;
 import johnny.designpattern.common.BritishGunshipCraft;
@@ -20,5 +21,4 @@ public class BritishAircraftFactory extends AircraftFactory {
             return null;
         }
     }
-
 }

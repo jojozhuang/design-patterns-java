@@ -8,7 +8,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import johnny.designpattern.common.Aircraft;
 import johnny.designpattern.factory.USAircraftFactory;
 import johnny.designpattern.factory.BritishAircraftFactory;
 import johnny.designpattern.factory.AircraftProcessor;

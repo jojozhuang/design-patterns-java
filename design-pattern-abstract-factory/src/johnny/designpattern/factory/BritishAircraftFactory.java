@@ -8,7 +8,6 @@ import johnny.designpattern.common.BritishGunshipCraft;
 import johnny.designpattern.common.BritishTroopTransportCraft;
 
 public class BritishAircraftFactory implements AircraftFactory {
-    @Override
     public Aircraft createAircraft(String type) {
         if (type.equals("Bomber")) {
             return new BritishBomberCraft();
@@ -21,17 +20,5 @@ public class BritishAircraftFactory implements AircraftFactory {
         } else {
             return null;
         }
-    }
-
-    @Override
-    public Aircraft repairAircraft(String type) {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public Aircraft decommissionAircraft(String type) {
-        // TODO Auto-generated method stub
-        return null;
     }
 }
