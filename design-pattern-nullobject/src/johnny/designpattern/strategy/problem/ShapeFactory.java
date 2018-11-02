@@ -14,7 +14,8 @@ public class ShapeFactory {
             shape = new Rectangle(2, 4);
         } else if ("Triangle".equalsIgnoreCase(shapeType)) {
             shape = new Triangle(3, 4, 5);
-        }
+        } // else return null
+        
         return shape;
     }
 }
