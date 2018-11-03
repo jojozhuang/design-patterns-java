@@ -7,8 +7,8 @@ import johnny.designpattern.strategy.ShapeProcessor;
 public class ShapeProcessorTest {
 
     @Test
-    public void testMovable() {
-        System.out.println("testMovable");
+    public void testShape() {
+        System.out.println("testShape");
 
         ShapeProcessor sp = new ShapeProcessor();
         sp.process();
