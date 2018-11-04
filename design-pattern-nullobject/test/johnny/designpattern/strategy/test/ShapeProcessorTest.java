@@ -1,6 +1,6 @@
 package johnny.designpattern.strategy.test;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import johnny.designpattern.strategy.ShapeProcessor;
 

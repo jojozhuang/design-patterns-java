@@ -5,8 +5,6 @@ import johnny.designpattern.observer.MessageServer;
 import johnny.designpattern.observer.User;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class MessageServerTest {
 
     @Test

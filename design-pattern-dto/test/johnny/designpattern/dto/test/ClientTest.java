@@ -1,6 +1,6 @@
 package johnny.designpattern.dto.test;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import johnny.designpattern.dto.BookableDTO;
 import johnny.designpattern.dto.Client;
