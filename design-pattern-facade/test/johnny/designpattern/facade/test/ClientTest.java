@@ -1,11 +1,10 @@
 package johnny.designpattern.facade.test;
 
-import java.util.Date;
-
-import org.junit.jupiter.api.Test;
-
 import johnny.designpattern.facade.Client;
 import johnny.designpattern.facade.problem.ProblematicClient;
+import org.junit.jupiter.api.Test;
+
+import java.util.Date;
 
 public class ClientTest {
 
