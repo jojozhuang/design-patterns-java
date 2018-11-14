@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/design-pattern-facade/design-pattern-facade.iml" filepath="$PROJECT_DIR$/design-pattern-facade/design-pattern-facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-factory/design-pattern-factory.iml" filepath="$PROJECT_DIR$/design-pattern-factory/design-pattern-factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-factory-method/design-pattern-factory-method.iml" filepath="$PROJECT_DIR$/design-pattern-factory-method/design-pattern-factory-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-pattern-flyweight/design-pattern-flyweight.iml" filepath="$PROJECT_DIR$/design-pattern-flyweight/design-pattern-flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-nullobject/design-pattern-nullobject.iml" filepath="$PROJECT_DIR$/design-pattern-nullobject/design-pattern-nullobject.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-observer/design-pattern-observer.iml" filepath="$PROJECT_DIR$/design-pattern-observer/design-pattern-observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-singleton/design-pattern-singleton.iml" filepath="$PROJECT_DIR$/design-pattern-singleton/design-pattern-singleton.iml" />
