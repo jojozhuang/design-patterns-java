@@ -1,7 +1,6 @@
-package johnny.designpattern.strategy.problem;
+package johnny.designpattern.nullobject.problem;
 
 import johnny.designpattern.common.Shape;
-import johnny.designpattern.strategy.problem.ShapeFactory;
 
 public class ShapeProcessor {
     String[] shapeTypes = new String[] { "Circle", "Triangle", "Rectangle", null};

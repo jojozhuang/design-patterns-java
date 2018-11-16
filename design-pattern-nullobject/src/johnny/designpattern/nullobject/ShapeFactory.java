@@ -1,4 +1,4 @@
-package johnny.designpattern.strategy.problem;
+package johnny.designpattern.nullobject;
 
 import johnny.designpattern.common.Circle;
 import johnny.designpattern.common.Rectangle;
@@ -14,8 +14,9 @@ public class ShapeFactory {
             shape = new Rectangle(2, 4);
         } else if ("Triangle".equalsIgnoreCase(shapeType)) {
             shape = new Triangle(3, 4, 5);
-        } // else return null
-        
+        } else {
+            shape = new NullShape();
+        }
         return shape;
     }
 }

@@ -1,8 +1,8 @@
-package johnny.designpattern.strategy.test;
+package johnny.designpattern.nullobject.test;
 
 import org.junit.jupiter.api.Test;
 
-import johnny.designpattern.strategy.ShapeProcessor;
+import johnny.designpattern.nullobject.ShapeProcessor;
 
 public class ShapeProcessorTest {
 
