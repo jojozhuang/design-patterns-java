@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/design-pattern-factory/design-pattern-factory.iml" filepath="$PROJECT_DIR$/design-pattern-factory/design-pattern-factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-factory-method/design-pattern-factory-method.iml" filepath="$PROJECT_DIR$/design-pattern-factory-method/design-pattern-factory-method.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-flyweight/design-pattern-flyweight.iml" filepath="$PROJECT_DIR$/design-pattern-flyweight/design-pattern-flyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-pattern-interpreter/design-pattern-interpreter.iml" filepath="$PROJECT_DIR$/design-pattern-interpreter/design-pattern-interpreter.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-memento/design-pattern-memento.iml" filepath="$PROJECT_DIR$/design-pattern-memento/design-pattern-memento.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-nullobject/design-pattern-nullobject.iml" filepath="$PROJECT_DIR$/design-pattern-nullobject/design-pattern-nullobject.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-observer/design-pattern-observer.iml" filepath="$PROJECT_DIR$/design-pattern-observer/design-pattern-observer.iml" />

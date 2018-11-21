@@ -1,4 +1,4 @@
-package johnny.designpattern.bridge.test;
+package johnny.designpattern.proxy.test;
 
 import johnny.designpattern.proxy.Internet;
 import johnny.designpattern.proxy.ProxyInternet;
