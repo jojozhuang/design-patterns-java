@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/design-pattern-nullobject/design-pattern-nullobject.iml" filepath="$PROJECT_DIR$/design-pattern-nullobject/design-pattern-nullobject.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-observer/design-pattern-observer.iml" filepath="$PROJECT_DIR$/design-pattern-observer/design-pattern-observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-prototype/design-pattern-prototype.iml" filepath="$PROJECT_DIR$/design-pattern-prototype/design-pattern-prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-pattern-proxy/design-pattern-proxy.iml" filepath="$PROJECT_DIR$/design-pattern-proxy/design-pattern-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-singleton/design-pattern-singleton.iml" filepath="$PROJECT_DIR$/design-pattern-singleton/design-pattern-singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-strategy/design-pattern-strategy.iml" filepath="$PROJECT_DIR$/design-pattern-strategy/design-pattern-strategy.iml" />
     </modules>
