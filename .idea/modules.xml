@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/design-pattern-prototype/design-pattern-prototype.iml" filepath="$PROJECT_DIR$/design-pattern-prototype/design-pattern-prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-proxy/design-pattern-proxy.iml" filepath="$PROJECT_DIR$/design-pattern-proxy/design-pattern-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-singleton/design-pattern-singleton.iml" filepath="$PROJECT_DIR$/design-pattern-singleton/design-pattern-singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-pattern-state/design-pattern-state.iml" filepath="$PROJECT_DIR$/design-pattern-state/design-pattern-state.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-strategy/design-pattern-strategy.iml" filepath="$PROJECT_DIR$/design-pattern-strategy/design-pattern-strategy.iml" />
     </modules>
   </component>
