@@ -1,7 +1,5 @@
 package johnny.designpattern.observer;
 
-import johnny.designpattern.common.Observer;
-
 public class User implements Observer {
     private String name;
     private String message;
@@ -19,5 +17,4 @@ public class User implements Observer {
     public void read() {
         System.out.println(name + " received message from server: " + message);
     }
-
 }

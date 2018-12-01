@@ -1,7 +1,8 @@
-package johnny.designpattern.mediator.test;
+package johnny.designpattern.observer.test;
 
-import johnny.designpattern.mediator.Client;
+import johnny.designpattern.observer.Client;
 import org.junit.jupiter.api.Test;
+
 
 public class ClientTest {
 

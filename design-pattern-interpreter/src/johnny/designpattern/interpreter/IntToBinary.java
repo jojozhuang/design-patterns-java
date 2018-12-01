@@ -1,6 +1,6 @@
 package johnny.designpattern.interpreter;
 
-public class IntToBinaryExpression implements Expression {
+public class IntToBinary implements Expression {
 
     @Override
     public String interpret(int num) {
@@ -8,5 +8,4 @@ public class IntToBinaryExpression implements Expression {
         System.out.println(num + " in Binary = " + result);
         return result;
     }
-
 }

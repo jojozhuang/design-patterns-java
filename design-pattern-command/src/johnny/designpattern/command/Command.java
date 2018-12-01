@@ -1,5 +1,5 @@
 package johnny.designpattern.command;
 
-public interface Order {
+public interface Command {
     void execute();
 }

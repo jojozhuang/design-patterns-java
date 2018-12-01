@@ -4,18 +4,18 @@ public class InStoreOrder extends Order {
     @Override
     public void doShopping()
     {
-        System.out.println("Customer selects products and puts to shopping cart.");
+        System.out.println("[In Store] Customer selects products and puts to shopping cart.");
     }
 
     @Override
     public void doCheckout()
     {
-        System.out.println("Customer places the order.");
+        System.out.println("[In Store] Customer places the order.");
     }
 
     @Override
     public void doPayment()
     {
-        System.out.println("Customer pays the money with credit card or cash.");
+        System.out.println("[In Store] Customer pays the money with credit card or cash.");
     }
 }

@@ -1,6 +1,6 @@
 package johnny.designpattern.interpreter;
 
-public class IntToHexExpression implements Expression {
+public class IntToHex implements Expression {
 
     @Override
     public String interpret(int num) {
@@ -8,5 +8,4 @@ public class IntToHexExpression implements Expression {
         System.out.println(num + " in Hexadecimal = " + result);
         return result;
     }
-
 }

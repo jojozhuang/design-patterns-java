@@ -1,26 +1,7 @@
-package johnny.designpattern.observer.test;
+package johnny.designpattern.observer;
 
-import johnny.designpattern.common.Observer;
-import johnny.designpattern.observer.MessageServer;
-import johnny.designpattern.observer.User;
-import org.junit.jupiter.api.Test;
-
-class MessageServerTest {
-
-    @Test
-    void registerObserver() {
-    }
-
-    @Test
-    void removeObserver() {
-    }
-
-    @Test
-    void notifyObserver() {
-    }
-
-    @Test
-    void setMessage() {
+public class Client {
+    public void run() {
         MessageServer server = new MessageServer();
 
         Observer user1 = new User("Johnny");

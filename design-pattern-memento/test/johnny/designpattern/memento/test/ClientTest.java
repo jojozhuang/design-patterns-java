@@ -11,6 +11,6 @@ public class ClientTest {
         System.out.println("testClient");
 
         Client client = new Client();
-        client.draw();
+        client.run();
     }
 }

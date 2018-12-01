@@ -1,4 +1,4 @@
-package johnny.designpattern.common;
+package johnny.designpattern.observer;
 
 public interface Observer {
     public void update(String message);

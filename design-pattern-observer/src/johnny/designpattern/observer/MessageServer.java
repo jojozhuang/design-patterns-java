@@ -1,8 +1,5 @@
 package johnny.designpattern.observer;
 
-import johnny.designpattern.common.Observer;
-import johnny.designpattern.common.Observerable;
-
 import java.util.ArrayList;
 import java.util.List;
 

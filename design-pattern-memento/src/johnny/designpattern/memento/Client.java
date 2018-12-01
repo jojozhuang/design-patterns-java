@@ -1,7 +1,7 @@
 package johnny.designpattern.memento;
 
 public class Client {
-    public void draw() {
+    public void run() {
         Caretaker caretaker = new Caretaker();
         Originator originator = new Originator();
         originator.setState("State1");

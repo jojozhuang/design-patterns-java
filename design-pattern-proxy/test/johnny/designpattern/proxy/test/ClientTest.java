@@ -9,6 +9,7 @@ public class ClientTest {
     @Test
     public void testClient() {
         Internet internet = new ProxyInternet();
+        System.out.println("Internet is working now ...");
         try
         {
             internet.connect("jojozhuang.github.io");

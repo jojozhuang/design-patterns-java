@@ -1,4 +1,4 @@
-package johnny.designpattern.common;
+package johnny.designpattern.observer;
 
 public interface Observerable {
     public void registerObserver(Observer o);

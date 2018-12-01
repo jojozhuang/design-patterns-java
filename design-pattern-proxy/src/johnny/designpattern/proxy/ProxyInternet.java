@@ -27,5 +27,4 @@ public class ProxyInternet implements Internet
 
         internet.connect(host);
     }
-
 }

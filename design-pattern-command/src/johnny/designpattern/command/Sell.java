@@ -1,6 +1,6 @@
 package johnny.designpattern.command;
 
-public class SellStock implements Order {
+public class Sell implements Command {
     public void execute() {
         System.out.println("Sell stock");
     }

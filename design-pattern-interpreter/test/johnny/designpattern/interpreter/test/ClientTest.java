@@ -1,17 +1,15 @@
 package johnny.designpattern.interpreter.test;
 
-import johnny.designpattern.interpreter.Expression;
-import johnny.designpattern.interpreter.IntToBinaryExpression;
-import johnny.designpattern.interpreter.IntToHexExpression;
+import johnny.designpattern.interpreter.Client;
 import org.junit.jupiter.api.Test;
 
 public class ClientTest {
 
     @Test
     public void testClient() {
-        Expression expIntToBinary = new IntToBinaryExpression();
-        Expression expIntToHex = new IntToHexExpression();
-        expIntToBinary.interpret(28);
-        expIntToHex.interpret(28);
+        System.out.println("testClient");
+
+        Client client = new Client();
+        client.run();
     }
 }

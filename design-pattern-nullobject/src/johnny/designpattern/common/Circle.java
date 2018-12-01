@@ -22,5 +22,4 @@ public class Circle implements Shape {
     public void draw() {
         System.out.println("Drawing Circle with area: " + area() + " and perimeter: " + perimeter());
     }
-
 }
