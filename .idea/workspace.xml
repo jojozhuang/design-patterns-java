@@ -2,40 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa7e2c2c-9f19-4143-a821-99bab285d860" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design-pattern-interpreter/src/johnny/designpattern/interpreter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern-interpreter/src/johnny/designpattern/interpreter/IntToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern-iterator/src/johnny/designpattern/iterator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern-mediator/src/johnny/designpattern/mediator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern-observer/src/johnny/designpattern/observer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern-observer/test/johnny/designpattern/observer/test/ClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern-state/src/johnny/designpattern/state/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern-visitor/design-pattern-visitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/ComputerPartDisplayVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Broker.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Broker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/BuyStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Buy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/SellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Sell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-flyweight/src/johnny/designpattern/common/LineFlyweightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-flyweight/src/johnny/designpattern/common/LineFlyweightFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-interpreter/src/johnny/designpattern/interpreter/IntToBinaryExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-interpreter/src/johnny/designpattern/interpreter/IntToBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-interpreter/src/johnny/designpattern/interpreter/IntToHexExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-interpreter/src/johnny/designpattern/interpreter/IntToHex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-interpreter/test/johnny/designpattern/interpreter/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-interpreter/test/johnny/designpattern/interpreter/test/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-iterator/test/johnny/designpattern/iterator/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-iterator/test/johnny/designpattern/iterator/test/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-mediator/test/johnny/designpattern/mediator/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-mediator/test/johnny/designpattern/mediator/test/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-memento/src/johnny/designpattern/memento/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-memento/src/johnny/designpattern/memento/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-memento/test/johnny/designpattern/memento/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-memento/test/johnny/designpattern/memento/test/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-nullobject/src/johnny/designpattern/common/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-nullobject/src/johnny/designpattern/common/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-observer/src/johnny/designpattern/common/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-observer/src/johnny/designpattern/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-observer/src/johnny/designpattern/common/Observerable.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-observer/src/johnny/designpattern/observer/Observerable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-observer/src/johnny/designpattern/observer/MessageServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-observer/src/johnny/designpattern/observer/MessageServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-observer/src/johnny/designpattern/observer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-observer/src/johnny/designpattern/observer/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-observer/test/johnny/designpattern/observer/test/MessageServerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-proxy/src/johnny/designpattern/proxy/ProxyInternet.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-proxy/src/johnny/designpattern/proxy/ProxyInternet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-proxy/test/johnny/designpattern/proxy/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-proxy/test/johnny/designpattern/proxy/test/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-state/test/johnny/designpattern/state/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-state/test/johnny/designpattern/state/test/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/InStoreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/InStoreOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/OnlineOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/OnlineOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern-templatemethod/test/johnny/designpattern/templatemethod/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-templatemethod/test/johnny/designpattern/templatemethod/test/ClientTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,14 +36,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="39" />
-          <entry key="java" value="297" />
+          <entry key="java" value="306" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="39" />
-          <entry key="JAVA" value="297" />
+          <entry key="JAVA" value="306" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -77,13 +51,13 @@
         <counts>
           <entry key="dummy" value="33" />
           <entry key="iml" value="5" />
-          <entry key="java" value="3824" />
+          <entry key="java" value="3827" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="5" />
-          <entry key="JAVA" value="3824" />
+          <entry key="JAVA" value="3827" />
           <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
@@ -114,72 +88,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern-state/test/johnny/designpattern/state/test/ClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern-state/src/johnny/designpattern/state/StopState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern-state/src/johnny/designpattern/state/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern-state/src/johnny/designpattern/state/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern-templatemethod/test/johnny/designpattern/templatemethod/test/ClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/OnlineOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -189,19 +97,111 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/InStoreOrder.java">
+        <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/ComputerPart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern-memento/test/johnny/designpattern/memento/test/ClientTest.java">
+        <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/ComputerPartVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design-pattern-visitor/test/johnny/designpattern/visitor/test/ClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Monitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Mouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/ComputerPartDisplayVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Keyboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -227,15 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design-pattern-iterator/src/johnny/designpattern/iterator/CourseCollectionImpl.java" />
-        <option value="$PROJECT_DIR$/design-pattern-iterator/src/johnny/designpattern/iterator/Course.java" />
-        <option value="$PROJECT_DIR$/design-pattern-mediator/design-pattern-mediator.iml" />
-        <option value="$PROJECT_DIR$/design-pattern-mediator/src/johnny/designpattern/mediator/User.java" />
-        <option value="$PROJECT_DIR$/design-pattern-mediator/src/johnny/designpattern/mediator/ChatRoom.java" />
-        <option value="$PROJECT_DIR$/design-pattern-state/design-pattern-state.iml" />
-        <option value="$PROJECT_DIR$/design-pattern-state/src/johnny/designpattern/state/State.java" />
-        <option value="$PROJECT_DIR$/design-pattern-state/src/johnny/designpattern/state/StartState.java" />
-        <option value="$PROJECT_DIR$/design-pattern-state/src/johnny/designpattern/state/StopState.java" />
         <option value="$PROJECT_DIR$/design-pattern-state/src/johnny/designpattern/state/Context.java" />
         <option value="$PROJECT_DIR$/design-pattern-templatemethod/design-pattern-templatemethod.iml" />
         <option value="$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/Order.java" />
@@ -278,6 +269,15 @@
         <option value="$PROJECT_DIR$/design-pattern-templatemethod/test/johnny/designpattern/templatemethod/test/ClientTest.java" />
         <option value="$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/InStoreOrder.java" />
         <option value="$PROJECT_DIR$/design-pattern-templatemethod/src/johnny/designpattern/templatemethod/OnlineOrder.java" />
+        <option value="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Keyboard.java" />
+        <option value="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Monitor.java" />
+        <option value="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Mouse.java" />
+        <option value="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/ComputerPartVisitor.java" />
+        <option value="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Computer.java" />
+        <option value="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/ComputerPart.java" />
+        <option value="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/ComputerPartDisplayVisitor.java" />
+        <option value="$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Client.java" />
+        <option value="$PROJECT_DIR$/design-pattern-visitor/test/johnny/designpattern/visitor/test/ClientTest.java" />
       </list>
     </option>
   </component>
@@ -299,53 +299,27 @@
           <expand>
             <path>
               <item name="design-patterns-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-memento" type="462c0819:PsiDirectoryNode" />
+              <item name="design-pattern-visitor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-memento" type="462c0819:PsiDirectoryNode" />
+              <item name="design-pattern-visitor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-memento" type="462c0819:PsiDirectoryNode" />
+              <item name="design-pattern-visitor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="memento" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-memento" type="462c0819:PsiDirectoryNode" />
+              <item name="design-pattern-visitor" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-memento" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-templatemethod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-templatemethod" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-templatemethod" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templatemethod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-templatemethod" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-templatemethod" type="462c0819:PsiDirectoryNode" />
+              <item name="design-pattern-visitor" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -359,7 +333,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543624037979" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543723394054" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -396,7 +370,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClientTest (2)">
+  <component name="RunManager" selected="JUnit.ClientTest (1)">
+    <configuration name="ClientTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern-visitor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="johnny.designpattern.visitor.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="johnny.designpattern.visitor.test" />
+      <option name="MAIN_CLASS_NAME" value="johnny.designpattern.visitor.test.ClientTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern-templatemethod" />
       <extension name="coverage">
@@ -407,20 +395,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="johnny.designpattern.templatemethod.test" />
       <option name="MAIN_CLASS_NAME" value="johnny.designpattern.templatemethod.test.ClientTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design-pattern-mediator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="johnny.designpattern.mediator.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="johnny.designpattern.mediator.test" />
-      <option name="MAIN_CLASS_NAME" value="johnny.designpattern.mediator.test.ClientTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -468,19 +442,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ClientTest (3)" />
       <item itemvalue="JUnit.ClientTest (4)" />
       <item itemvalue="JUnit.ClientTest (5)" />
       <item itemvalue="JUnit.ClientTest" />
       <item itemvalue="JUnit.ClientTest (2)" />
+      <item itemvalue="JUnit.ClientTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClientTest (1)" />
         <item itemvalue="JUnit.ClientTest (2)" />
         <item itemvalue="JUnit.ClientTest" />
         <item itemvalue="JUnit.ClientTest (5)" />
         <item itemvalue="JUnit.ClientTest (4)" />
-        <item itemvalue="JUnit.ClientTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -498,9 +472,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientTest_(5) - 2018.11.30 at 15h 06m 26s.xml">
-      <configuration name="ClientTest (5)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClientTest - 2018.11.30 at 15h 25m 21s.xml">
       <configuration name="ClientTest" configurationId="JUnit" />
     </history-entry>
@@ -526,6 +497,9 @@
       <configuration name="ClientTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ClientTest_(2) - 2018.11.30 at 16h 25m 54s.xml">
+      <configuration name="ClientTest (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_(2) - 2018.11.30 at 16h 26m 34s.xml">
       <configuration name="ClientTest (2)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -565,73 +539,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design-pattern-proxy/src/johnny/designpattern/proxy/Internet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern-proxy/src/johnny/designpattern/proxy/RealInternet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern-proxy/src/johnny/designpattern/proxy/ProxyInternet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" selection-start-line="5" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern-proxy/test/johnny/designpattern/proxy/test/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Buy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Sell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Broker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern-command/test/johnny/designpattern/command/test/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-pattern-command/src/johnny/designpattern/command/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -885,7 +792,7 @@
     <entry file="file://$PROJECT_DIR$/design-pattern-state/test/johnny/designpattern/state/test/ClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -938,6 +845,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/ComputerPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/ComputerPartVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/ComputerPartDisplayVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern-visitor/src/johnny/designpattern/visitor/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern-visitor/test/johnny/designpattern/visitor/test/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

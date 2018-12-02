@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/design-pattern-state/design-pattern-state.iml" filepath="$PROJECT_DIR$/design-pattern-state/design-pattern-state.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-strategy/design-pattern-strategy.iml" filepath="$PROJECT_DIR$/design-pattern-strategy/design-pattern-strategy.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-templatemethod/design-pattern-templatemethod.iml" filepath="$PROJECT_DIR$/design-pattern-templatemethod/design-pattern-templatemethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-pattern-visitor/design-pattern-visitor.iml" filepath="$PROJECT_DIR$/design-pattern-visitor/design-pattern-visitor.iml" />
     </modules>
   </component>
 </project>
